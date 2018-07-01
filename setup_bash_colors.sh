@@ -11,9 +11,7 @@ is_installed_(){
  fi
 }
 
-
-#=====================# Coloured Text_Installer #=====================#
-coloured_text_installer(){
+#=====================# Bash Colors Text_Installer #=====================#
 #=====================# bfs #=====================#
 if ! which j0find &>/dev/null; then
  cd "$HOMEPATH/j0find"
@@ -61,9 +59,5 @@ which cheat &>/dev/null || pip install cheat
   #Cheat text editor
    export CHEAT_EDITOR='nano'
  EOF
-#=============# Coloured prompt #=============#
-}
-
-coloured_text_installer
 
 #to be continued...
